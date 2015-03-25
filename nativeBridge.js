@@ -1,3 +1,4 @@
+﻿//bridge api co communicate with a cordova wrapper for ipad app
 ﻿poseApp.service("nativeBridge", ["$rootScope"], function ($rootScope) {
     var frame, frameWin, frameLocation;
     if (navIs().iosApp || navIs().fromIosApp) {
